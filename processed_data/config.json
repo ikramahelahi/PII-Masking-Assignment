@@ -1,0 +1,40 @@
+{
+  "train_samples": 22812,
+  "val_samples": 5704,
+  "test_samples": 3650,
+  "synthetic_emails_count": 2000,
+  "email_injection_probability": 0.15,
+  "tag_set": [
+    "O",
+    "B-PER",
+    "I-PER",
+    "B-EMAIL",
+    "I-EMAIL"
+  ],
+  "train_statistics": {
+    "total_tokens": 570914,
+    "tag_distribution": {
+      "O": 511733,
+      "B-PER": 32206,
+      "I-PER": 23539,
+      "B-EMAIL": 3436
+    }
+  },
+  "val_statistics": {
+    "total_tokens": 142172,
+    "tag_distribution": {
+      "O": 127322,
+      "B-PER": 8058,
+      "I-PER": 5927,
+      "B-EMAIL": 865
+    }
+  },
+  "test_statistics": {
+    "total_tokens": 87032,
+    "tag_distribution": {
+      "O": 77866,
+      "B-PER": 5207,
+      "I-PER": 3959
+    }
+  }
+}
